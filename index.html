@@ -1,0 +1,183 @@
+<!-- сообщаем браузеру о типе документа -->
+<!DOCTYPE html>
+<!-- главны тег страницы-->
+<html lang="ru">
+<!-- чердак нужен для подключения ссылок и заголовка страницы -->
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/dist/style.css" />
+	<!-- информация которая отображается на вкладке БР -->
+	<title>&#9786; Евгений Диченко &#9786;</title>
+	<meta http-equiv="Content-type" content ="text/html;charset=UTF-8"/>
+	<style>
+		.heder {
+		 background-image: url(img/bg/bg.jpg); /* Путь к фоновому изображению */		 
+		}
+		.works {
+		 background-image: url(img/bg/bg2.png); /* Путь к фоновому изображению */		 
+		}
+
+	  </style>
+</head>
+<!-- главное тело страницы отображается в браузере -->
+<body>
+	<div class="heder">			
+		<div class="d-flex flex-column">
+			<div class="flex_item">
+				<h1>
+					<span>Hello world!</span></br>
+					Или по простому ВСЕМ ПРИВЕТ!!!
+				</h1>
+			</div>
+			<div class="flex_item">
+				<h2>
+					<span>Евгений Диченко</span></br>
+					APPLICATION DEVELOPER С#.</br>
+				</h2>
+			</div>
+			<div class="flex_item">
+				<h3>
+					<span class="stack">&#10004;</span>C#,
+					<span class="stack">&#10004;</span> Windows Forms,
+					<span class="stack">&#10004;</span> WPF,
+					<span class="stack">&#10004;</span> SQL,
+					<span class="stack">&#10004;</span> SQLight,
+					<span class="stack">&#10004;</span> Ado NET,</br>	
+					<span class="stack">&#10004;</span> Entity Framework,
+					<span class="stack">&#10004;</span> Dapper,
+					<span class="stack">&#10004;</span> Windows service,
+					<span class="stack">&#10004;</span> HTML/CSS,
+					<span class="stack">&#10004;</span> SASS,									
+					<span class="stack">&#10004;</span> Bootstrap
+				</h3>
+			</div>
+		 </div>
+	</div>
+
+
+	<div class="works">
+		
+		<div class="work" style="width: 25rem;">
+			<img class="card-img-top" src="img/icon/C.png" alt="Card image cap">
+			<div class="body">
+			  <h5 class="title">Cell_life</h5>
+			  <p class="text">
+				Проэкт - симуляция жизни клеток.</br>
+				Клетки имеют свой клан, живут, питаются, размножаются
+				 и сражаются за еду с другими кланами
+				</p>
+			  <a href="https://github.com/Gafchik/Cell_life" target="_blank"
+			   class="btn btn-primary">
+				Посмотреть на Git Hub</a>
+			</div>
+		</div>
+
+		<div class="work" style="width: 25rem;">
+			<img class="card-img-top" src="img/icon/wpf.png" alt="Card image cap">
+			<div class="body">
+			  <h5 class="title">Крестики нолики WPF</h5>
+			  <p class="text">
+				Простая реализация игры "Крестики нолики" </br>
+				написаная на технологии WPF с паттерном MVVM
+				</p>
+			  <a href="https://github.com/Gafchik/X_O_v_2/tree/master/X_O_v_2"
+			   class="btn btn-primary" target="_blank">
+				Посмотреть на Git Hub</a>
+			</div>
+		</div>
+
+		<div class="work" style="width: 25rem;">
+			<img class="card-img-top" src="img/icon/forms.png" alt="Card image cap">
+			<div class="body">
+			  <h5 class="title">Best_Oli</h5>
+			  <p class="text">
+				Приложение кассовый аппарат заправочной станции </br>
+				написаное на Windows Forms отлично демонстрирует
+				 простоту и скорость написания кода в данной технологии
+				</p>
+			  <a href="https://github.com/Gafchik/Best_Oli" target="_blank"
+			   class="btn btn-primary">
+				Посмотреть на Git Hub</a>
+			</div>
+		</div>
+
+		<div class="work" style="width: 25rem;">
+			<img class="card-img-top" src="img/icon/dapper.png" alt="Card image cap">
+			<div class="body">
+			  <h5 class="title">Drink_Admin</h5>
+			  <p class="text">
+				В проэкте 2 приложения для продавца и покупателя </br>
+				WPF MVVM Dapper и хранение всей информации в БД
+				отлично отображает все возможности данного фреймворка
+				</p>
+			  <a href="https://github.com/Gafchik/Drink_Admin" target="_blank"
+			  class="btn btn-primary">
+				Посмотреть на Git Hub</a>
+			</div>
+		</div>
+
+		<div class="work" style="width: 25rem;">
+			<img class="card-img-top" src="img/icon/service.png" alt="Card image cap">
+			<div class="body">
+			  <h5 class="title">Cookie listener</h5>
+			  <p class="text">
+				В проэкте 2 приложения  </br>
+				Windows service для логирования изменений cookies файлов 
+				для браузеров Opera, Firefox, Google Chrome и програма для 
+				отображения таблиц cookies файлов
+				</p>
+			  <a href="https://github.com/Gafchik/Examp_System"target="_blank"
+			   class="btn btn-primary">
+				Посмотреть на Git Hub</a>
+			</div>
+		</div>
+
+		<div class="work" style="width: 25rem;">
+			<img class="card-img-top" src="img/icon/bootstrap.svg" alt="Card image cap">
+			<div class="body">
+			  <h5 class="title">Registration form</h5>
+			  <p class="text">
+				Форма регестрации нового пользевателя  </br>
+				Написана как образец работы с использованием HTML,
+				CSS, SASS, Bootstrap. Для демонстрации владения этими навыками
+				</p>
+			  <a href="https://github.com/Gafchik/Sass_Form-bootstrap"
+			   class="btn btn-primary" target="_blank">
+				Посмотреть на Git Hub</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="contact" style="width: 25rem;">
+			<img  src="img/contact/phone.png" alt="Card image cap">
+			<div class="body">
+			  <h2 class="title">+380977094293</h2>			  		  
+			</div>
+		</div>
+		<div class="contact" style="width: 25rem;">
+			<img  src="img/contact/telegram.png" alt="Card image cap">
+			<div class="body">
+			  <h2 class="title">+380977094293</h2>			  		  
+			</div>
+		</div>
+		<div class="contact" style="width: 25rem;">
+			<img  src="img/contact/Email.png" alt="Card image cap">
+			<div class="body">
+			  <h2 class="title">dichajeka@gmail.com</h2>			  		  
+			</div>
+		</div>
+		<div class="contact" style="width: 25rem;">
+			<img  src="img/contact/insta.png" alt="Card image cap">
+			<div class="body">
+			  <h2 class="title">www.instagram.com/</br>dichajeka</h2>			  		  
+			</div>
+		</div>
+	</div>
+</body>
+<!-- подвал сайта используется для  нижней части сайта -->
+	
+<footer>
+
+</footer>
+</html>

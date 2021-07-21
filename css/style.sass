@@ -1,0 +1,87 @@
+$color_blue: #451EE3
+$color_green: #0FE721
+$color_dark_blue: #191970
+$color_gold: #FFD700
+$color_white:  #FFFFFF
+$color_Purple:  #800080
+$color_black:  #000000
+
+%flex_row_start
+   display: flex
+   flex-direction: row
+   flex-wrap: wrap
+   justify-content: center
+   align-items: stretch
+
+%border_blue
+   border-width: 5px
+   border-style: solid
+   border-color: $color_blue
+   border-radius: 25px
+   padding-left : 15pt
+   padding-right : 15pt
+
+
+body  
+   font-family: Palatino
+   font-style: italic
+   font-weight: bold
+
+.heder
+   color: $color_dark_blue
+   .flex_item
+      h1    
+         padding-top: 2%
+         margin-left : 25%
+         margin-right : 20%
+         margin-bottom : 10%
+         font-size : 45pt
+         span
+            margin-left : 25%
+         
+      h2    
+         margin-left : 30%
+         margin-right : 20%
+         font-size : 35pt
+         margin-bottom : 15%
+         span
+            margin-left : 20%
+      h3
+         margin-left : 20%
+         margin-right : 20%
+         font-size : 23pt
+         margin-bottom : 2%
+      .stack
+         color: $color_green
+.works
+   @extend %flex_row_start
+   .work
+      color: $color_white
+      padding-left: 5%
+      padding-top: 7%
+      max-height: 30%
+      min-height: 30%
+      .card-img-top
+         padding: 10%
+      .title
+         font-size : 50px
+         margin-left : 30%
+      .text
+         font-size : 30px
+         margin-left : 10%
+      a
+         margin-left : 20%
+         background: $color_Purple
+         border-color: $color_Purple
+.footer
+   @extend %flex_row_start
+   color: $color_black
+   background: $color_white
+   .contact
+      margin-left: 1%
+      margin-top: 2%
+      img
+         margin-left: 10%
+         height: 100pt
+         width: 100pt
+      
